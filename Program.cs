@@ -7,3 +7,5 @@ foreach (var address in addresses)
 {
     Console.WriteLine(address);
 }
+
+Parser.Write(addresses);

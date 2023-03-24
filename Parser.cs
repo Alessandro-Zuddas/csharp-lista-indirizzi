@@ -41,9 +41,22 @@ namespace csharp_lista_indirizzi
 
         }
 
-        public static void Write(IEnumerable<Indirizzo> indirizzo)
+        public static void Write(IEnumerable<Indirizzo> addresses)
         {
-            using var output = File.CreateText("..\\..\\..\\addresses.csv");
+            using var output = File.CreateText("..\\..\\..\\output.txt");
+            output.WriteLine("Lista indirizzi: ");
+
+            foreach ( var address in addresses)
+            {
+                output.WriteLine();
+                output.WriteLine("----Indirizzo----");
+                output.WriteLine($"Name: {address.name}");
+                output.WriteLine($"Surname: {address.surname}");
+                output.WriteLine($"Street: {address.street}");
+                output.WriteLine($"City: {address.city}");
+                output.WriteLine($"Province: {address.province}");
+                output.WriteLine($"ZIP Code: {address.zipCode}");
+            }
         }
     }
 }

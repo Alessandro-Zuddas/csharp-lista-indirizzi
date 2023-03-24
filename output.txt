@@ -1,0 +1,49 @@
+Lista indirizzi: 
+
+----Indirizzo----
+Name: John
+Surname: Doe
+Street: 120 jefferson st.
+City: Riverside
+Province: NJ
+ZIP Code: 08075
+
+----Indirizzo----
+Name: Jack
+Surname: McGinnis
+Street: 220 hobo Av.
+City: Phila
+Province: PA
+ZIP Code: 09119
+
+----Indirizzo----
+Name: John Da Man
+Surname: Repici
+Street: 120 Jefferson St.
+City: Riverside
+Province: NJ
+ZIP Code: 08075
+
+----Indirizzo----
+Name: Stephen
+Surname: Tyler
+Street: 7452 Terrace "At the Plaza" road
+City: SomeTown
+Province: SD
+ZIP Code: 91234
+
+----Indirizzo----
+Name: Joan
+Surname: Anne
+Street: Jet
+City: 9th at Terrace plc
+Province: Desert City
+ZIP Code: CO
+
+----Indirizzo----
+Name: 
+Surname: Blankman
+Street: 
+City: New York
+Province:  NY
+ZIP Code:  100101
