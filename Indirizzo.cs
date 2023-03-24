@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace csharp_lista_indirizzi
 
 {
-    public class Indirizzo
+    public record Indirizzo
     {
         public string name;
         public string surname;
