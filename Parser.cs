@@ -25,6 +25,8 @@ namespace csharp_lista_indirizzi
 
                 var chunks = line.Split(',');
 
+                if (chunks.Length < 6) continue;
+
                 var name = chunks[0];
                 var surname = chunks[1];
                 var street = chunks[2];
